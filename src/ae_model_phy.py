@@ -1050,7 +1050,7 @@ class ConvLinUpsample_AE(nn.Module):
 class ConvLinTrans_AE(nn.Module):
 
     def __init__(self, latent_dim=32, img_dim=28, dropout=.2, in_ch=1,
-                 kernel=3, n_conv_blocks=5, phy_dim=0, feed_phy=True):
+                 kernel=3, n_conv_blocks=5, phy_dim=8, feed_phy=True):
         """
         Parameters
         ----------
